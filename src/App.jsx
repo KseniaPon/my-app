@@ -6,7 +6,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 const App = () => (
   <div>
-    <h1>Super Store</h1>
+    <h1>Super Store New</h1>
     <nav>
       <Link to="my-app/about">About</Link> |{' '}
       <Link to="my-app/contact">Contact</Link>
