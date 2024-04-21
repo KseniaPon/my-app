@@ -26,15 +26,15 @@ function Contact() {
 
 const router = createBrowserRouter([
   {
-    path: "/my-app",
+    path: "/",
     element: <App />,
     children: [
       {
-        path: 'my-app/about',
+        path: 'about',
         element: <About />,
       },
       {
-        path: 'my-app/contact',
+        path: 'contact',
         element: <Contact />,
       },
     ]
