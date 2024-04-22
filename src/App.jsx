@@ -8,8 +8,8 @@ const App = () => (
   <div>
     <h1>Super Store New</h1>
     <nav>
-      <Link to="/about">About</Link> |{' '}
-      <Link to="/contact">Contact</Link>
+      <Link to="my-app/about">About</Link> |{' '}
+      <Link to="my-app/contact">Contact</Link>
     </nav>
     <main>
       <Outlet />
